@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - UniFoy Making</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0D1B2A;
+            --secondary: #1B263B;
+            --accent: #E94560;
+            --accent-secondary: #00D9FF;
+            --surface: #162032;
+            --surface-light: #1F2D40;
+            --text-primary: #FFFFFF;
+            --text-secondary: #A0AEC0;
+            --glass: rgba(22, 32, 50, 0.85);
+            --radius: 12px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .back-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--accent);
+        }
+
+        .policy-page {
+            padding: 140px 24px 80px;
+        }
+
+        .policy-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .policy-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .policy-header p {
+            color: var(--text-secondary);
+        }
+
+        .policy-content {
+            background: var(--surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: var(--radius);
+            padding: 50px;
+        }
+
+        .policy-section {
+            margin-bottom: 40px;
+        }
+
+        .policy-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--accent);
+        }
+
+        .policy-section p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .policy-section ul {
+            list-style: disc;
+            padding-left: 24px;
+            color: var(--text-secondary);
+        }
+
+        .policy-section li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            padding: 30px 0;
+            background: var(--surface);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .footer p {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .footer a {
+            color: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            .policy-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">UniFoy Making</a>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back
+            </a>
+        </div>
+    </header>
+
+    <main class="policy-page">
+        <div class="container">
+            <div class="policy-header">
+                <h1>Terms & Conditions</h1>
+                <p>Last updated: January 15, 2026</p>
+            </div>
+
+            <div class="policy-content">
+                <div class="policy-section">
+                    <h2>1. Acceptance of Terms</h2>
+                    <p>By accessing and using the UniFoy Making website and services, you accept and agree to be bound by the terms and provision of this agreement. Additionally, when using UniFoy Making's services, you shall be subject to any posted guidelines or rules applicable to such services.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>2. Description of Service</h2>
+                    <p>UniFoy Making provides users with access to a rich collection of resources, including various communications tools, forums, shopping services, personalized content, and branded programming through its network of properties. You also understand and agree that the service may include advertisements and that these advertisements are necessary for UniFoy Making to provide the service.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>3. Registration Obligations</h2>
+                    <p>In consideration of your use of the Service, you agree to:</p>
+                    <ul>
+                        <li>Provide true, accurate, current, and complete information about yourself as prompted by the Service's registration form</li>
+                        <li>Maintain and promptly update the registration data to keep it true, accurate, current, and complete</li>
+                        <li>Accept all responsibilities for all activities that occur under your account</li>
+                        <li>Not use the service for any illegal purposes</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>4. Privacy Policy</h2>
+                    <p>Registration data and certain other personally identifiable information about you is subject to our Privacy Policy. You understand that through your use of the Service, you consent to the collection and use of this data, including the transfer of this data to other countries for storage, processing, and use.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>5. User Conduct</h2>
+                    <p>You agree not to use the Service to:</p>
+                    <ul>
+                        <li>Upload, post, email, transmit, or otherwise make available any content that is unlawful, harmful, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, libelous, invasive of another's privacy, hateful, or racially, ethnically, or otherwise objectionable</li>
+                        <li>Harm minors in any way</li>
+                        <li>Forge headers or otherwise manipulate identifiers in order to disguise the origin of any content transmitted through the Service</li>
+                        <li>Upload, post, email, transmit, or otherwise make available any unsolicited or unauthorized advertising, promotional materials, "junk mail," "spam," "chain letters," or any other form of solicitation</li>
+                        <li>Upload, post, email, transmit, or otherwise make available any material that contains software viruses or any other computer code, files, or programs designed to interrupt, destroy, or limit the functionality of any computer software or hardware</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>6. Payment and Billing</h2>
+                    <p>For paid services, you agree to provide accurate and complete billing information. You authorize us to charge your credit card or other payment method for all purchases. All fees are non-refundable unless otherwise stated in our Refund Policy.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>7. Modifications to Service</h2>
+                    <p>UniFoy Making reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice. You agree that UniFoy Making shall not be liable to you or to any third party for any modification, suspension, or discontinuance of the Service.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>8. Termination</h2>
+                    <p>You agree that UniFoy Making may, in its sole discretion, terminate your password, account (or any part thereof) or use of the Service, and remove and discard any content within the Service, for any reason, including, without limitation, for lack of use or if UniFoy Making believes that you have violated or acted inconsistently with the letter or spirit of these Terms & Conditions.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>9. Limitation of Liability</h2>
+                    <p>You expressly understand and agree that UniFoy Making shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses resulting from:</p>
+                    <ul>
+                        <li>The use or inability to use the service</li>
+                        <li>The cost of procurement of substitute goods and services resulting from any goods, data, information, or services purchased or obtained or messages received or transactions entered into through or from the service</li>
+                        <li>Unauthorized access to or alteration of your transmissions or data</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>10. Contact Information</h2>
+                    <p>If you have any questions about these Terms & Conditions, please contact us at support@unifoymaking.com or through our Contact page.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 UniFoy Making. <a href="terms.html">Terms</a> • <a href="privacy.html">Privacy</a> • <a href="refund.html">Refunds</a></p>
+        </div>
+    </footer>
+</body>
+</html>
