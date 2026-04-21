@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - UniFoy Making</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0D1B2A;
+            --secondary: #1B263B;
+            --accent: #E94560;
+            --accent-secondary: #00D9FF;
+            --surface: #162032;
+            --surface-light: #1F2D40;
+            --text-primary: #FFFFFF;
+            --text-secondary: #A0AEC0;
+            --glass: rgba(22, 32, 50, 0.85);
+            --radius: 12px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .back-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--accent);
+        }
+
+        .policy-page {
+            padding: 140px 24px 80px;
+        }
+
+        .policy-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .policy-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .policy-header p {
+            color: var(--text-secondary);
+        }
+
+        .policy-content {
+            background: var(--surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: var(--radius);
+            padding: 50px;
+        }
+
+        .policy-section {
+            margin-bottom: 40px;
+        }
+
+        .policy-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--accent);
+        }
+
+        .policy-section p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .policy-section ul {
+            list-style: disc;
+            padding-left: 24px;
+            color: var(--text-secondary);
+        }
+
+        .policy-section li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            padding: 30px 0;
+            background: var(--surface);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .footer p {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .footer a {
+            color: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            .policy-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">UniFoy Making</a>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back
+            </a>
+        </div>
+    </header>
+
+    <main class="policy-page">
+        <div class="container">
+            <div class="policy-header">
+                <h1>Privacy Policy</h1>
+                <p>Last updated: January 15, 2026</p>
+            </div>
+
+            <div class="policy-content">
+                <div class="policy-section">
+                    <h2>1. Introduction</h2>
+                    <p>At UniFoy Making, we take your privacy seriously. This Privacy Policy describes how we collect, use, disclose, safeguard, and otherwise process your personal information when you use our website and services. By using UniFoy Making, you consent to the data practices described in this policy.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>2. Information We Collect</h2>
+                    <p>We collect information that you provide directly to us, including:</p>
+                    <ul>
+                        <li><strong>Account Information:</strong> Name, email address, phone number, company name when you register for an account</li>
+                        <li><strong>Payment Information:</strong> Billing address, payment method details (processed securely through our payment partners)</li>
+                        <li><strong>Profile Information:</strong> Service preferences, project descriptions, budget ranges</li>
+                        <li><strong>Communications:</strong> Emails, chat messages, and other communications you send to us</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>3. How We Use Your Information</h2>
+                    <p>We use the information we collect to:</p>
+                    <ul>
+                        <li>Provide, maintain, and improve our services</li>
+                        <li>Process transactions and send related information</li>
+                        <li>Send you technical notices, updates, security alerts, and support messages</li>
+                        <li>Respond to your comments, questions, and provide customer service</li>
+                        <li>Communicate with you about products, services, offers, and events</li>
+                        <li>Monitor and analyze trends, usage, and activities</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>4. Information Sharing</h2>
+                    <p>We do not sell, trade, or otherwise transfer your personal information to outside parties except in the following circumstances:</p>
+                    <ul>
+                        <li><strong>Service Providers:</strong> We share information with third-party vendors who assist us in operating our website and conducting our business</li>
+                        <li><strong>Legal Requirements:</strong> We may disclose information when required by law or in response to valid requests by public authorities</li>
+                        <li><strong>Business Transfers:</strong> Information may be transferred as part of a merger, acquisition, or sale of company assets</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>5. Data Security</h2>
+                    <p>We implement appropriate technical and organizational security measures to protect your personal information. We use industry-standard encryption for data in transit and at rest. However, no method of transmission over the Internet or electronic storage is 100% secure, so we cannot guarantee absolute security.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>6. Cookies and Tracking Technologies</h2>
+                    <p>We use cookies and similar tracking technologies to track activity on our website and hold certain information. Cookies are files with a small amount of data that may include an anonymous unique identifier. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>7. Your Rights</h2>
+                    <p>You have the right to:</p>
+                    <ul>
+                        <li>Access the personal information we hold about you</li>
+                        <li>Request correction of inaccurate personal information</li>
+                        <li>Request deletion of your personal information</li>
+                        <li>Object to processing of your personal information</li>
+                        <li>Request restriction of processing your personal information</li>
+                        <li>Request transfer of your personal information</li>
+                        <li>Withdraw consent at any time</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>8. Data Retention</h2>
+                    <p>We will retain your personal information only for as long as necessary for the purposes set out in this Privacy Policy. We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>9. Children's Privacy</h2>
+                    <p>Our service is not intended for use by children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>10. Changes to This Policy</h2>
+                    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "last updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>11. Contact Us</h2>
+                    <p>If you have any questions about this Privacy Policy, please contact us at privacy@unifoymaking.com or through our Contact page.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 UniFoy Making. <a href="terms.html">Terms</a> • <a href="privacy.html">Privacy</a> • <a href="refund.html">Refunds</a></p>
+        </div>
+    </footer>
+</body>
+</html>
