@@ -1,0 +1,248 @@
+================================================================================
+                    UNIFO Y MAKING - PROJECT PROMPT
+                    Service Marketplace Website
+================================================================================
+
+PROJECT OVERVIEW
+================================================================================
+Project Name: UniFoy Making
+Type: Service Marketplace Website
+Core Functionality: A platform connecting users with expert service providers for web development, mobile apps, and UI/UX design services.
+Target Users: Customers seeking professional services and service providers offering services.
+
+================================================================================
+TECHNICAL SPECIFICATIONS
+================================================================================
+
+Tech Stack:
+- Pure HTML5, CSS3, JavaScript
+- No frameworks required
+- Google Fonts (Outfit)
+- Font Awesome 6.5.1 for icons
+
+Color Palette:
+- Primary: #0D1B2A (Deep Navy)
+- Secondary: #1B263B (Dark Blue)
+- Accent: #E94560 (Coral Red)
+- Accent Secondary: #00D9FF (Electric Cyan)
+- Surface: #162032 (Card Background)
+- Surface Light: #1F2D40 (Hover states)
+- Text Primary: #FFFFFF
+- Text Secondary: #A0AEC0
+
+Typography:
+- Primary Font: Outfit (Google Fonts)
+- Font weights: 300, 400, 500, 600, 700, 800
+
+================================================================================
+PAGE STRUCTURE
+================================================================================
+
+1. HOMEPAGE (index.html)
+--------------------------------------------------------------------------------
+Header (Fixed, glass effect):
+   - Logo (gradient text)
+   - Navigation links (Home, Services, About, Blog, Contact)
+   - Sign In / Sign Up buttons (top right)
+
+Hero Section (100vh):
+   - H1: "Find Your Perfect Service"
+   - Subtitle text
+   - Centered search bar (glass morphism style, pill-shaped)
+   - Hero stats (10K+ Services, 500+ Experts, 98% Satisfaction)
+
+Services Section (#services):
+   - Section title
+   - 3 service cards in grid:
+     * Web Development (code icon)
+     * Mobile Apps (mobile icon)
+     * UI/UX Design (palette icon)
+   - Each card: icon, title, description, "Learn More" button
+
+Info Section (#about):
+   - 3 feature cards:
+     * Expert Professionals (user-check icon)
+     * Secure Payments (shield icon)
+     * 24/7 Support (headset icon)
+
+Blog Section (#blog):
+   - 3 blog post cards
+   - Image placeholder, title, excerpt, "Read More" link
+
+Newsletter Section (#contact):
+   - Title and subtitle
+   - Email input + Subscribe button
+
+CTA Section:
+   - Sign In / Sign Up buttons repeated
+
+Footer:
+   - 4 columns: Company, Quick Links, Support, Legal
+   - Social media icons
+   - Copyright bar
+
+2. LOGIN PAGE (login.html)
+--------------------------------------------------------------------------------
+- Centered auth card
+- Title: "Welcome Back"
+- Email input
+- Password input + "Forgot Password?" link
+- Sign In button
+- Divider: "or continue with"
+- Google OAuth button
+- GitHub OAuth button
+- Footer link: "Don't have an account? Sign Up"
+
+3. SIGN UP PAGE (signup.html)
+--------------------------------------------------------------------------------
+- Centered auth card
+- Title: "Create Account"
+- Full Name input
+- Email input
+- Password input
+- Confirm Password input
+- Terms checkbox with links to Terms & Privacy Policy
+- Sign Up button
+- Divider with OAuth buttons
+- Footer link: "Already have an account? Sign In"
+
+4. ACCOUNT PAGE (account.html)
+--------------------------------------------------------------------------------
+- Header with user avatar and Logout
+- Title: "Complete Your Profile"
+- Requirements form:
+   * Service Type dropdown (Web Dev, Mobile App, UI/UX, Other)
+   * Project Description textarea
+   * Budget Range dropdown
+   * Timeline dropdown
+   * Phone Number input
+   * Company/Organization input (optional)
+- "Continue" and "Save for Later" buttons
+- "Skip for now" link
+
+5. SERVICE PAGES
+--------------------------------------------------------------------------------
+All three service pages have similar structure:
+
+service-web.html - Web Development
+service-mobile.html - Mobile Apps
+service-design.html - UI/UX Design
+
+Each includes:
+- Hero with icon, title, description
+- Features grid (6 cards)
+- Pricing packages (Basic, Standard, Premium)
+- Process steps (4 steps)
+- CTA section
+
+6. POLICY PAGES
+--------------------------------------------------------------------------------
+terms.html - Terms & Conditions
+   - 10 sections covering: Acceptance, Description, Registration, Privacy,
+     User Conduct, Payment, Modifications, Termination, Liability, Contact
+
+privacy.html - Privacy Policy
+   - 11 sections covering: Introduction, Information We Collect, How We Use,
+     Information Sharing, Data Security, Cookies, Your Rights, Data Retention,
+     Children's Privacy, Changes, Contact
+
+refund.html - Refund Policy
+   - 9 sections covering: Commitment, Eligibility, Timeline by Service,
+     Non-Refundable, How to Request, Processing, Partial Refunds,
+     Dispute Resolution, Contact
+
+================================================================================
+UI/UX SPECIFICATIONS
+================================================================================
+
+Design Elements:
+- Glass morphism: rgba(22, 32, 50, 0.85) with backdrop-filter blur
+- Border radius: 12px (cards), 8px (buttons)
+- Shadows with accent glow on hover
+- Gradient backgrounds (diagonal)
+
+Animations:
+- Card hover: translateY(-8px)
+- Button hover: scale(1.02) with glow
+- Smooth transitions: 0.3s cubic-bezier(0.4, 0, 0.2, 1)
+
+Responsive Breakpoints:
+- Desktop: > 1024px
+- Tablet: 768px - 1024px
+- Mobile: < 768px
+
+================================================================================
+KEY FEATURES TO IMPLEMENT
+================================================================================
+
+1. Header:
+   - Fixed position with glass effect
+   - Scroll background darken
+   - Mobile hamburger menu
+
+2. Search Bar:
+   - Centered in hero
+   - Glass morphism styling
+   - Search icon button
+
+3. Navigation:
+   - Smooth scroll to sections
+   - Active state indicators
+
+4. Forms:
+   - Focus states with accent color
+   - Validation feedback
+   - OAuth button placeholders
+
+5. Cards:
+   - Hover lift animation
+   - Gradient accent line on hover
+
+================================================================================
+FILE STRUCTURE
+================================================================================
+
+unifoymaking/
+├── index.html           (Homepage)
+├── login.html          (Sign In)
+├── signup.html        (Sign Up)
+├── account.html      (User Profile)
+├── service-web.html   (Web Development)
+├── service-mobile.html (Mobile Apps)
+├── service-design.html (UI/UX Design)
+├── terms.html        (Terms & Conditions)
+├── privacy.html     (Privacy Policy)
+├── refund.html     (Refund Policy)
+└── prompt.txt     (This file)
+
+================================================================================
+HOW TO USE
+================================================================================
+
+1. Open index.html in a browser
+2. Navigate through the site using the header links
+3. Test login/signup flow (forms redirect to account page)
+4. View service pages and pricing
+5. Access policy pages from footer
+
+================================================================================
+CUSTOMIZATION
+================================================================================
+
+To modify colors:
+- Edit CSS :root variables at top of each file
+
+To add more services:
+- Add new service-web.html, service-mobile.html, service-design.html as templates
+- Modify pricing, features, process steps
+
+To connect to backend:
+- Replace form submit handlers with API calls
+- OAuth buttons need backend integration
+- Add user authentication logic
+
+To add more policy pages:
+- Use terms.html/privacy.html as templates
+- Modify content sections
+
+================================================================================
