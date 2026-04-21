@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund Policy - UniFoy Making</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0D1B2A;
+            --secondary: #1B263B;
+            --accent: #E94560;
+            --accent-secondary: #00D9FF;
+            --surface: #162032;
+            --surface-light: #1F2D40;
+            --text-primary: #FFFFFF;
+            --text-secondary: #A0AEC0;
+            --glass: rgba(22, 32, 50, 0.85);
+            --radius: 12px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .back-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--accent);
+        }
+
+        .policy-page {
+            padding: 140px 24px 80px;
+        }
+
+        .policy-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .policy-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .policy-header p {
+            color: var(--text-secondary);
+        }
+
+        .policy-content {
+            background: var(--surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: var(--radius);
+            padding: 50px;
+        }
+
+        .policy-section {
+            margin-bottom: 40px;
+        }
+
+        .policy-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--accent);
+        }
+
+        .policy-section p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .policy-section ul {
+            list-style: disc;
+            padding-left: 24px;
+            color: var(--text-secondary);
+        }
+
+        .policy-section li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: var(--surface-light);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            margin: 24px 0;
+            border-radius: 0 var(--radius) var(--radius) 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        .footer {
+            padding: 30px 0;
+            background: var(--surface);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .footer p {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .footer a {
+            color: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            .policy-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">UniFoy Making</a>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back
+            </a>
+        </div>
+    </header>
+
+    <main class="policy-page">
+        <div class="container">
+            <div class="policy-header">
+                <h1>Refund Policy</h1>
+                <p>Last updated: January 15, 2026</p>
+            </div>
+
+            <div class="policy-content">
+                <div class="policy-section">
+                    <h2>1. Our Commitment</h2>
+                    <p>At UniFoy Making, we are committed to ensuring your satisfaction with our services. We understand that sometimes circumstances change, and you may need to request a refund. This policy outlines our refund terms and procedures.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>2. Eligibility for Refunds</h2>
+                    <p>You may be eligible for a refund under the following circumstances:</p>
+                    <ul>
+                        <li>The service has not been initiated or started</li>
+                        <li>Significant delays due to our team (more than 14 business days without update)</li>
+                        <li>Technical issues preventing service delivery</li>
+                        <li>Double billing or billing errors</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>3. Refund Timeline by Service Type</h2>
+                    <div class="highlight-box">
+                        <p><strong>Web Development:</strong> Full refund if cancelled before design phase begins. 50% refund if cancelled during design phase. No refund after development has commenced.</p>
+                    </div>
+                    <div class="highlight-box">
+                        <p><strong>Mobile Apps:</strong> Full refund if cancelled before discovery phase begins. 50% refund if cancelled during discovery/design. No refund after development has commenced.</p>
+                    </div>
+                    <div class="highlight-box">
+                        <p><strong>UI/UX Design:</strong> Full refund if cancelled before design work begins. 50% refund if cancelled after first mockup. No refund after final delivery.</p>
+                    </div>
+                </div>
+
+                <div class="policy-section">
+                    <h2>4. Non-Refundable Scenarios</h2>
+                    <p>Refunds are not available in the following situations:</p>
+                    <ul>
+                        <li>After significant work has been completed</li>
+                        <li>Change of mind after work has commenced</li>
+                        <li>Client failure to provide required information</li>
+                        <li>Scope changes requested by client</li>
+                        <li>Services that have been fully delivered</li>
+                        <li>Additional features or revisions outside original scope</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>5. How to Request a Refund</h2>
+                    <p>To request a refund, please follow these steps:</p>
+                    <ul>
+                        <li>Contact our support team at support@unifoymaking.com</li>
+                        <li>Include your order number and reason for refund request</li>
+                        <li>Our team will review your request within 3 business days</li>
+                        <li>You will receive a decision notification via email</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>6. Refund Processing</h2>
+                    <p>Once your refund is approved:</p>
+                    <ul>
+                        <li>Refunds are processed within 5-10 business days</li>
+                        <li>Refunds are credited to the original payment method</li>
+                        <li>You will receive a confirmation email when processed</li>
+                        <li>Processing time may vary based on your payment provider</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2>7. Partial Refunds</h2>
+                    <p>In cases where partial work has been completed, we offer prorated refunds based on the work completed. Our team will provide a detailed breakdown of work completed and associated costs before processing any partial refund.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>8. Dispute Resolution</h2>
+                    <p>If you're not satisfied with our refund decision, please contact us. We are committed to resolving any disputes fairly and amicably. You can reach our management team at disputes@unifoymaking.com.</p>
+                </div>
+
+                <div class="policy-section">
+                    <h2>9. Contact Us</h2>
+                    <p>If you have any questions about our Refund Policy, please contact us at support@unifoymaking.com or visit our Contact page.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 UniFoy Making. <a href="terms.html">Terms</a> • <a href="privacy.html">Privacy</a> • <a href="refund.html">Refunds</a></p>
+        </div>
+    </footer>
+</body>
+</html>
