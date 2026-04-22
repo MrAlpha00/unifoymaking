@@ -94,3 +94,18 @@ Process steps
 Terms & Conditions
 Privacy Policy
 Refund Policy
+
+
+##🎬 Animations
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 217, 255, 0.2);
+}
+
+.button:hover {
+  transform: scale(1.02);
+}
+
+* {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
