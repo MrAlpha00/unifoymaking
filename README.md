@@ -57,3 +57,19 @@ Built using **pure HTML, CSS, and JavaScript**, focusing on performance, simplic
   --text-primary: #FFFFFF;
   --text-secondary: #A0AEC0;
 }
+```
+
+##📁 Project Structure
+```
+unifoymaking/
+├── index.html
+├── login.html
+├── signup.html
+├── account.html
+├── service-web.html
+├── service-mobile.html
+├── service-design.html
+├── terms.html
+├── privacy.html
+├── refund.html
+└── prompt.txt
