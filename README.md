@@ -73,3 +73,24 @@ unifoymaking/
 ├── privacy.html
 ├── refund.html
 └── prompt.txt
+```
+###Pages Overview
+##🏠 Homepage
+Hero section with search bar
+Services section
+Blog preview
+Newsletter & CTA
+##🔐 Authentication
+Login page
+Signup page
+##👤 Account Page
+Profile setup form
+Service selection
+##💼 Service Pages
+Features
+Pricing plans
+Process steps
+##📜 Policy Pages
+Terms & Conditions
+Privacy Policy
+Refund Policy
