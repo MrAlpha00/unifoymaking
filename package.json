@@ -1,0 +1,20 @@
+{
+  "name": "unifoymaking",
+  "version": "1.0.0",
+  "description": "![HTML](https://img.shields.io/badge/HTML5-Structure-orange?style=for-the-badge&logo=html5)\r ![CSS](https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3)\r ![JS](https://img.shields.io/badge/JavaScript-Logic-yellow?style=for-the-badge&logo=javascript)\r ![UI](https://img.shields.io/badge/UI-Glassmorphism-purple?style=for-the-badge)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAlpha00/unifoymaking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAlpha00/unifoymaking/issues"
+  },
+  "homepage": "https://github.com/MrAlpha00/unifoymaking#readme"
+}
